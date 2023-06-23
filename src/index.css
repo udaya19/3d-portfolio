@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  background-color: black;
+}
+
+.red-gradient {
+  background: #ea2323;
+  background: linear-gradient(-90deg, #ea2323 0%, rgba(60, 51, 80, 0) 100%);
+  background: -webkit-linear-gradient(
+    -90deg,
+    #ea2323 0%,
+    rgba(60, 51, 80, 0) 100%
+  );
+}
