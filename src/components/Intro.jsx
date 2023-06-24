@@ -9,7 +9,9 @@ const Intro = () => {
         <div>
           <p className="text-5xl font-extrabold">
             Hi, This is{" "}
-            <span className="text-red-500 font-extrabold text-5xl">Udaya</span>
+            <span className="text-red-500 font-extrabold text-5xl">
+              Udaya Kiran
+            </span>
           </p>
         </div>
         <div className="mt-3">
