@@ -22,9 +22,7 @@ const EducationExperienceCard = ({
         />
       </div>
       <div
-        className={`w-[100%] ${
-          desc ? "h-[200px]" : "h-[150px]"
-        } bg-card p-[20px] border-b-2 border-white rounded-lg `}
+        className={`w-[100%] bg-card p-[20px] border-b-2 border-white rounded-lg `}
       >
         <h1 className="text-white font-bold text-[24px] bg-card">
           {title}{" "}

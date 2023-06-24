@@ -7,7 +7,7 @@ const About = () => {
         Overview
       </div> */}
       <SectionHeading title="Overview" />
-      <div className="text-navColor absolute left-0  text-left font-[20px]">
+      <div className="text-navColor absolute left-0  text-left lg:font-[20px] sm:font-[16px]">
         I am a passionate web developer,learner and currently a student. I am a{" "}
         <br />
         JavaScript developer currently learning Node.js and React, Express and{" "}

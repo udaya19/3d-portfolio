@@ -1,9 +1,9 @@
 const Intro = () => {
   return (
-    <div className="flex p-5 w-[60%]">
+    <div className="flex p-5 lg:w-[60%] md:mt-5 lg:mt-2 lg:ml-1 mt-20 ml-4">
       <div className="flex flex-col justify-center items-center">
         <div className="w-5 h-5 rounded-full bg-red-500"></div>
-        <div className="w-1 h-48 red-gradient"></div>
+        <div className="w-1 lg:h-48 h-56 red-gradient"></div>
       </div>
       <div className="text-white p-8">
         <div>

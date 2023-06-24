@@ -28,7 +28,7 @@ function Scene({ word1, word2 }) {
 // eslint-disable-next-line react/prop-types
 const Text3DComponent = ({ word1, word2 }) => {
   return (
-    <div className="w-[30%]">
+    <div className="lg:w-[30%] w-full ">
       <Canvas orthographic camera={{ position: [0, 0, 100], zoom: 100 }}>
         {/* eslint-disable-next-line react/no-unknown-property */}
         <ambientLight intensity={0.5} />

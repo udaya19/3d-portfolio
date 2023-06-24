@@ -3,7 +3,7 @@ import SkillsBall from "./SkillsBall";
 
 const Hero = () => {
   return (
-    <div className="flex items-center h-[500px] mt-10 w-full">
+    <div className="lg:flex md:flex  lg:items-center lg:h-[500px] md:h-[250px] mt-10 w-full">
       <Intro />
       <SkillsBall />
     </div>
