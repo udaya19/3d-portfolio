@@ -9,7 +9,7 @@ import SectionHeading from "./SectionHeading";
 
 const Contact = () => {
   return (
-    <div>
+    <div data-aos="fade-up">
       <SectionHeading title="Contact" />
       <div className="-mt-8 lg:flex md:flex md:gap-10 lg:gap-20">
         <p className="text-navColor md:w-[80%] lg:w-[60%]">
