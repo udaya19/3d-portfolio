@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <div data-aos="fade-up">
       <SectionHeading title="Contact" />
-      <div className="-mt-8 lg:flex md:flex md:gap-10 lg:gap-20">
+      <div className="-mt-8 lg:flex md:flex md:gap-10 lg:gap-20" id="contact">
         <p className="text-navColor md:w-[80%] lg:w-[60%]">
           If you are new to Computer Science Engineering and looking for
           mentorship please feel free to contact me. I will guide you through
