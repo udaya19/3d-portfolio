@@ -8,7 +8,7 @@ import EducationExperienceCard from "./EducationCard";
 
 const Experience = () => {
   return (
-    <div id="experience">
+    <div id="experience" data-aos="fade-down">
       <SectionHeading title="Experience" />
       {/* {experience.map((e, index) => (
         <div className="mb-10" key={index}>

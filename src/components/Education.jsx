@@ -4,7 +4,7 @@ import SectionHeading from "./SectionHeading";
 
 const Education = () => {
   return (
-    <div id="education">
+    <div id="education" data-aos="zoom-in-up">
       <SectionHeading title="Education" />
       {education.map((e, index) => (
         <EducationExperienceCard

@@ -73,7 +73,7 @@ function Cloud({ count = 10, radius = 30 }) {
 
 const SkillsBall = () => {
   return (
-    <div className="lg:w-[45%] mr-10 h-[450px] sm:w-full ">
+    <div className="lg:w-[45%] mr-10 h-[450px] sm:w-full">
       <Canvas dpr={[1, 2]} camera={{ position: [0, 0, 35], fov: 90 }}>
         {/* eslint-disable-next-line react/no-unknown-property */}
         <fog attach="fog" args={["#202025", 0, 80]} />

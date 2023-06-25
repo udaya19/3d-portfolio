@@ -3,7 +3,7 @@ import { AiFillGithub } from "react-icons/ai";
 /* eslint-disable react/prop-types */
 const ProjectCard = ({ title, desc, image, tags, link }) => {
   return (
-    <div className="w-[360px] rounded-3xl bg-card mt-2 p-5 ">
+    <div className="w-[360px] rounded-3xl bg-card mt-2 p-5 " data-aos="flip-up">
       <div className="relative">
         <img
           src={image}

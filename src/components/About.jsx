@@ -2,7 +2,7 @@ import SectionHeading from "./SectionHeading";
 
 const About = () => {
   return (
-    <div id="about" className="relative">
+    <div id="about" className="relative" data-aos="fade-right">
       {/* <div className="text-white text-[30px] absolute left-0 font-extrabold ">
         Overview
       </div> */}
