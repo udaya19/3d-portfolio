@@ -16,6 +16,9 @@ const Skills = () => {
         <Text3DComponent word1="React" word2="Native" />
         <Text3DComponent word1="NodeJs" word2="" />
         <Text3DComponent word1="System" word2="Design" />
+        <Text3DComponent word1="AWS" word2="" />
+        <Text3DComponent word1="Docker" word2="" />
+        <Text3DComponent word1="Jenkins" word2="CI/CD" />
       </div>
     </div>
   );

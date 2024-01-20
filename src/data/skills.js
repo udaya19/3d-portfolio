@@ -9,6 +9,9 @@ const skills = [
   "TS",
   "Solidity",
   "Web3.js",
+  "AWS",
+  "Docker",
+  "Jenkins CI/CD",
 ];
 
 export default skills;
